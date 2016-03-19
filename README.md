@@ -24,6 +24,7 @@ MrBayes is able to read the above text and interpret it as a backbone constraint
 It will therefore constraint the tree search and force it to return the given topology
 
 Code:
+
 In the code folder is my Rscript
 
 The following packages are used in the function:
@@ -48,5 +49,6 @@ Applies Make_MrBayes_Constraint to all files in a directory
 All of the files need to be .txt files in standard newick format
 
 Data:
+
 In this folder are two sample constraint trees in newick format. 
 They were derived from the paper Arnason, Ulfur, et al. "Pinniped phylogeny and a new hypothesis for their origin and dispersal." Molecular phylogenetics and evolution 41.2 (2006): 345-354.
