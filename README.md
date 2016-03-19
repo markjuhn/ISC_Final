@@ -7,7 +7,7 @@ test_tree.txt contains a simple newick tree to demonstrate that the code works
 
 The topology of the tree is:
 
-( (A, B) , ( (C, D) , E ))
+( (A, B) , ( (C, D) , E ));
 
 What the function should returned is: 
 
