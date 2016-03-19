@@ -50,5 +50,5 @@ All of the files need to be .txt files in standard newick format
 
 Data:
 
-In this folder are two sample constraint trees in newick format. 
+In this folder are two sample constraint trees in newick format and one test tree. 
 They were derived from the paper Arnason, Ulfur, et al. "Pinniped phylogeny and a new hypothesis for their origin and dispersal." Molecular phylogenetics and evolution 41.2 (2006): 345-354.
