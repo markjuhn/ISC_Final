@@ -19,6 +19,16 @@ constraint backbone3 partial = C D : A B E;
 
 prset topologypr = constraints( backbone1, backbone2, backbone3);
 
+A general way of how MrBayes reads these constraints:
+
+constraint [name of constraint] partial = [monophyletic group] : [Everything you know the is not in the monphyletic group]
+
+^this loads the constraints into MrBayes
+
+prset topologypr = constraints ( [name of constraint], [name of constraint], [etc] );
+
+^this tells MrBayes to use whatever you loaded as a constraint
+
 
 MrBayes is able to read the above text and interpret it as a backbone constraint tree
 It will therefore constraint the tree search and force it to return the given topology
