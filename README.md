@@ -22,6 +22,13 @@ It will therefore constraint the tree search and force it to return the given to
 Code:
 In the code folder is my Rscript
 
+The following packages are used in the function:
+
+>library(ape)
+>library(geiger)
+>library(phytools)
+>library(tools)
+
 These files can be called using the command line in terminal
 > Rscript Final_Proj.R ../Data
 
