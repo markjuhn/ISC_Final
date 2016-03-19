@@ -12,9 +12,13 @@ The topology of the tree is:
 What the function should returned is: 
 
 constraint backbone1 partial = A B : C D E;
+
 constraint backbone2 partial = C D E : A B;
+
 constraint backbone3 partial = C D : A B E;
+
 prset topologypr = constraints( backbone1, backbone2, backbone3);
+
 
 MrBayes is able to read the above text and interpret it as a backbone constraint tree
 It will therefore constraint the tree search and force it to return the given topology
