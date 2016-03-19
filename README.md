@@ -3,6 +3,20 @@ For my final project, I made a series of functions that would be able to turn a 
 MrBayes cannot read a newick tree file as a constraint, and can only read them in as starting trees.
 Therefore, I wanted to make a function that could produce a constraint usable in MrBayes
 
+test_tree.txt contains a simple newick tree to demonstrate that the code works
+The topology of the tree is
+
+( (A, B) , ( (C, D) , E ))
+What the function should returned is this
+
+constraint backbone1 partial = A B : C D E;
+constraint backbone2 partial = C D E : A B;
+constraint backbone3 partial = C D : A B E;
+prset topologypr = constraints( backbone1, backbone2, backbone3);
+
+MrBayes is able to read the above text and interpret it as a backbone constraint tree
+It will therefore constraint the tree search and force it to return the given topology
+
 Code:
 In the code folder is my Rscript
 
