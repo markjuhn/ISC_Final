@@ -21,7 +21,7 @@ prset topologypr = constraints( backbone1, backbone2, backbone3);
 
 A general way of how MrBayes reads these constraints:
 
-constraint [name of constraint] partial = [monophyletic group] : [Everything you know that is not in the monphyletic group]
+constraint [name of constraint] partial = [monophyletic group] : [Everything you know that is not in the monphyletic group];
 
 ^this loads the constraints into MrBayes
 
