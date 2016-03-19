@@ -34,6 +34,8 @@ The following packages are used in the function:
 >library(phytools)
 >library(tools)
 
+Installing them is not in the function, therefore, if the packages are not installed on the computer, they need to be for the code to run.
+
 These files can be called using the command line in terminal
 > Rscript Final_Proj.R ../Data
 
